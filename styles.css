@@ -21,28 +21,39 @@ header p {
     font-size: 40px;
 }
 
+
 img {
     display: block;
     box-shadow: rgb(135, 131, 124) 0px 5px 5px 2px;
 }
 
+
 #fig-div {
+    margin: auto;
     width: 96%;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px;
     /* justify-content: space-around; */
     /* justify-content: space-between; */
+    /* border: 2px solid rgb(135, 21, 8); */
 }
 
 #fig-div img {
-    margin: 18px auto;
-    width: 30%;
+    /* align-self: center; */
+    margin: 18px 0;
+    width: 20%;
     height: auto;
     max-width: 100%;
-    border-radius: 70px;
+    border-radius: 17%;
+    /* border: 2px solid salmon; */
 }
 
+#fig-div #image-3 {
+    width: 40%;
+}
 /* #fig-div1{
     display: flex;
     justify-content: center;
@@ -63,7 +74,8 @@ img {
     margin: 0 auto;
     width: 96%;
     height: auto;
-    background-color: rgb(170, 118, 41);
+    background-color: rgb(234, 177, 92);
+    /* border: 2px solid darkgreen; */
 }
 
 figcaption {

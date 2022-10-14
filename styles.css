@@ -75,7 +75,7 @@ img {
     width: 96%;
     height: auto;
     background-color: rgb(170, 118, 41);
-    border: 2px solid darkgreen;
+    /* border: 2px solid darkgreen; */
 }
 
 figcaption {

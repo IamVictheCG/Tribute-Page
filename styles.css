@@ -79,4 +79,8 @@ section li {
     margin-bottom: 14px;
 }
 
-article
+article {
+    width: 95%;
+    margin: 0 auto;
+    border: 2px solid saddlebrown;
+}

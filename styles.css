@@ -1,21 +1,56 @@
+body {
+    background-color: palevioletred;
+}
+
 main {
-    width: 96%;
+    width: 98%;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+header h1{
+    font-size: 100px;
 }
 
 #fig-div {
+    width: 96%;
     display: flex;
+    justify-content: center;
     justify-content: space-around;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 #fig-div img {
-    padding: 8px 8px;
-    width: 350px;
+    padding: 18px 0;
+    width: 550px;
+    height: auto;
+    max-width: 100%;
+}
+
+#fig-div1{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0 auto; */
+    border: 2px solid salmon;
+}
+
+#fig-div1 img {
+    padding: 18px 0;
+    width: 700px;
     height: auto;
     max-width: 100%;
 }
 
 #img-div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 96%;
+    height: auto;
     background-color: rgb(205, 188, 166);
 }
 

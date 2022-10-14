@@ -36,7 +36,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 22px;
-    /* justify-content: space-between; */
 }
 
 #fig-div img {

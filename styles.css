@@ -21,6 +21,10 @@ header p {
     font-size: 40px;
 }
 
+img {
+    display: block;
+}
+
 #fig-div {
     width: 96%;
     display: flex;

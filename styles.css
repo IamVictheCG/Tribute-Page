@@ -2,12 +2,25 @@ main {
     width: 96%;
 }
 
+#fig-div {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
 #fig-div img {
-    width: 300px;
+    padding: 8px 8px;
+    width: 350px;
     height: auto;
     max-width: 100%;
 }
 
 #img-div {
-    background-color: antiquewhite;
+    background-color: rgb(205, 188, 166);
+}
+
+figcaption {
+    border: 2px solid sandybrown;
+    display: flex;
+    justify-content: center;
 }

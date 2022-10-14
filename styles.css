@@ -13,12 +13,15 @@ header {
 }
 
 header h1{
-    font-size: 100px;
-    margin-bottom: 2px;
+    border: 2px rgb(83, 76, 3) solid;
+    font-size: 300%;
+    margin-top: 0px;
+    /* margin-bottom: 0px; */
 }
 
 header p {
-    font-size: 40px;
+    font-size: 150%;
+    border: 2px rgb(83, 76, 3) solid;
 }
 
 

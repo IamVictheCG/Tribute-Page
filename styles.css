@@ -2,7 +2,12 @@ main {
     width: 96%;
 }
 
-#img-div img {
-    width: 400px;
-    height: 4vh;
+#fig-div img {
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+}
+
+#img-div {
+    background-color: antiquewhite;
 }
